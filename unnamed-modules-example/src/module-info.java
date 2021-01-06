@@ -1,0 +1,2 @@
+module unnamed.modules.example {
+}
