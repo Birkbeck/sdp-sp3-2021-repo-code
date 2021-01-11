@@ -1,10 +1,6 @@
 package lombokexamples.immutable;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 import lombok.experimental.Wither;
 
 import java.time.Instant;
@@ -30,7 +26,7 @@ public final class LoginResponse {
   private final @NonNull String authToken;
   private final @NonNull Instant loginTs;
 
-  @Wither
+  @With
   private final @NonNull Instant tokenExpiryTs;
 
 }
