@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Definition for textEditor bean using inner bean -->
+    <bean id="textEditor" class="TextEditor">
+        <property name="spellChecker">
+            <bean id="spellChecker" class="SpellChecker"/>
+        </property>
+    </bean>
+</beans>

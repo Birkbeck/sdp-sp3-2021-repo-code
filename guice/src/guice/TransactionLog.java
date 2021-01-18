@@ -1,0 +1,4 @@
+package guice;
+
+interface TransactionLog {
+}

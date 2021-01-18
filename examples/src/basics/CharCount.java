@@ -32,7 +32,7 @@ public class CharCount {
       // Will the code above provide accurate counts?
     }
     System.out.printf("Your input contained %d digits, %d "
-                    + "punctuaion marks, and %d letters.%n",
+                    + "punctuation marks, and %d letters.%n",
             digitCount, punctuationCount, letterCount);
   }
 }

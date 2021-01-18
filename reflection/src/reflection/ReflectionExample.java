@@ -41,11 +41,13 @@ public class ReflectionExample {
       for (Method method : type.getMethods()) {
         System.out.println("method = " + method.getName());
       }
+      System.out.println();
 
       // get all methods declared in the class but excludes inherited methods.
       for (Method dmethod : type.getDeclaredMethods()) {
         System.out.println("method = " + dmethod.getName());
       }
+      System.out.println();
 
       // get method with specific name and parameters
       Method oneMethod = type.getMethod("computeRentalCost", Integer.TYPE);
@@ -53,6 +55,7 @@ public class ReflectionExample {
 
       // call computeRentalCost method with parameter int
       oneMethod.invoke(rent, 4);
+      // rent.computeRentalCost(4)
 
       // get all the parameters of computeRentalCost
       Class[] parameterTypes = oneMethod.getParameterTypes();
@@ -81,7 +84,7 @@ public class ReflectionExample {
       // getDeclaredField() returns the private field
       Field privateField = RentCar.class.getDeclaredField("type");
 
-      System.out.println("One private Fieldname is: " + privateField.getName());
+      System.out.println("One private Field name is: " + privateField.getName());
       // makes this private field instance accessible
       // for reflection use only, not normal code
       privateField.setAccessible(true);
