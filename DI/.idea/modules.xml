@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DI.iml" filepath="$PROJECT_DIR$/DI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Example/Example.iml" filepath="$PROJECT_DIR$/Example/Example.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorldCommandLineArguments/HelloWorldCommandLineArguments.iml" filepath="$PROJECT_DIR$/HelloWorldCommandLineArguments/HelloWorldCommandLineArguments.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorldDecoupled/HelloWorldDecoupled.iml" filepath="$PROJECT_DIR$/HelloWorldDecoupled/HelloWorldDecoupled.iml" />

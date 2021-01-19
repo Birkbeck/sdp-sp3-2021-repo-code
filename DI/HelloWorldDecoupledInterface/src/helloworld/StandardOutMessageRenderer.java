@@ -4,6 +4,7 @@ public class StandardOutMessageRenderer implements MessageRenderer {
 
   private MessageProvider messageProvider = null;
 
+  @Override
   public void render() {
     if (messageProvider == null) {
       throw new RuntimeException(
@@ -11,11 +12,6 @@ public class StandardOutMessageRenderer implements MessageRenderer {
           + StandardOutMessageRenderer.class.getName());
     }
     System.out.println(messageProvider.getMessage());
-  }
-
-  @Override
-  public MessageProvider getMessageProvider() {
-    return this.messageProvider;
   }
 
   @Override

@@ -14,10 +14,6 @@ public class StandardOutMessageRenderer {
     System.out.println(messageProvider.getMessage());
   }
 
-  public HelloWorldMessageProvider getMessageProvider() {
-    return this.messageProvider;
-  }
-
   public void setMessageProvider(HelloWorldMessageProvider provider) {
     this.messageProvider = provider;
   }
