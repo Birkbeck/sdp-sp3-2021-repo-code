@@ -2,7 +2,7 @@ public class SquareImpl implements Square{
   private double length;
 
   public SquareImpl(double d){
-    length = d;
+    setLength(d);
   }
 
   @Override

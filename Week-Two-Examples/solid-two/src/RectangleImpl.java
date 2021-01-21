@@ -27,8 +27,7 @@ public class RectangleImpl implements Rectangle {
     width = w;
   }
 
-  @Override
-  public double area() {
+  @Override public double area() {
     return getHeight() * getWidth();
   }
 }
