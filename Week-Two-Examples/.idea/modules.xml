@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Week-Two-Examples.iml" filepath="$PROJECT_DIR$/Week-Two-Examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coffeemaker/coffeemaker.iml" filepath="$PROJECT_DIR$/coffeemaker/coffeemaker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solid-five/solid-five.iml" filepath="$PROJECT_DIR$/solid-five/solid-five.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solid-four/solid-four.iml" filepath="$PROJECT_DIR$/solid-four/solid-four.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solid-one/solid-one.iml" filepath="$PROJECT_DIR$/solid-one/solid-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solid-three/solid-three.iml" filepath="$PROJECT_DIR$/solid-three/solid-three.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solid-two/solid-two.iml" filepath="$PROJECT_DIR$/solid-two/solid-two.iml" />
+    </modules>
+  </component>
+</project>

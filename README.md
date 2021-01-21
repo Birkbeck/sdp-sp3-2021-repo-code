@@ -10,6 +10,6 @@ modules at Birkbeck, University of London.
 
 #### Lecture examples:
 
-- 19-01-Examples - from Tuesday, 19th January
+- Week-??? - the examples from that week if not already present on the repo.
 - ...
 
