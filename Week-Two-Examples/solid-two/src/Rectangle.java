@@ -1,4 +1,4 @@
-public interface Rectangle  {
+public interface Rectangle {
   double getHeight();
 
   void setHeight(double h);
@@ -6,5 +6,6 @@ public interface Rectangle  {
   double getWidth();
 
   void setWidth(double w);
+
   double area();
 }

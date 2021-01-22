@@ -1,6 +1,6 @@
 public class Driver {
   public static void main(String... args) {
-    Rectangle r1 = new RectangleImpl(2.0, 4.0);
+    Rectangle r1 = new RectangleImpl(2.0, 4.0); // ShapeFactory.getInstance("Rectangle",2.0,4.0)
     Rectangle r2 = new RectangleImpl(1.5, 2.0);
 
     System.out.println("Total area of Rectangles: " + AreaCalculator.totalArea(r1,r2));
