@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="com.google.dagger:dagger:2.11" type="repository">
+    <properties maven-id="com.google.dagger:dagger:2.11" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/dagger-2.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.inject-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/dagger-2.11-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.inject-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

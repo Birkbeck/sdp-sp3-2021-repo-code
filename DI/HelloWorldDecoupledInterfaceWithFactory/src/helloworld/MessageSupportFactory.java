@@ -11,15 +11,16 @@ public class MessageSupportFactory {
     instance = new MessageSupportFactory();
   }
 
-  private Properties props = null;
   private MessageRenderer renderer = null;
   private MessageProvider provider = null;
 
   private MessageSupportFactory() {
-    props = new Properties();
+    Properties props = new Properties();
 
     try {
-      props.load(new FileInputStream("bean.properties"));
+      try (var fis = new FileInputStream("bean.properties")) {
+        props.load(fis);
+      }
 
       // get the implementation classes
       String rendererClass = props.getProperty("renderer.class");

@@ -6,10 +6,34 @@ The examples, exercises, and coursework files for the
 
 modules at Birkbeck, University of London.
 
-----
+------
 
-#### Lecture examples:
-
-- Week-??? - the examples from that week if not already present on the repo.
-- ...
-
++ DI - dependency injection examples from class including the `HelloWorld` set of examples
++ Week-Three-Examples
++ Week-Two-Examples
++ common.widget - part of the JPMS example
++ concurrency
++ corejava - example code from the book by Cay Horstmann
++ dagger - DI framework examples
++ defaults - `default` in interfaces
++ designpatterns - examples of the various GoF design patterns
++ designpatternsbanas - code examples accompanying the videos by Derek Banas
++ dpij - "Design Patterns in Java" book examples
++ examples - general Java examples
++ fpinjava - "Functional Programming in Java" book example code
++ generics - examples
++ getting-started-jpms
++ guice - DI framework example
++ javaimpatient - example code from the book by Cay Horstmann
++ junit - Junit 4 and 5 examples
++ lambdas
++ lombok - Project Lombok examples
++ module-examples - JPMS examples
++ optional - examples of the use of `Optional`
++ recursion - examples
++ reflection - examples
++ solid - examples
++ streams - Java Streams (not the IO streams)
++ tryWithResources 
++ unnamed-modules-example - more JPMS
++ ...

@@ -6,12 +6,11 @@
 		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 		
     <bean id="renderer" class="helloworld.StandardOutMessageRenderer">
-        <property name="messageProvider" 
-                  ref="provider"/>
+        <property name="messageProvider" ref="provider"/>
     </bean>
     <bean id="provider" class="helloworld.ConfigurableMessageProvider">
         <constructor-arg>
-            <value>This is a configurable message</value>
+            <value>This is a configurable message which we can change in the config file</value>
         </constructor-arg>
     </bean>
 </beans>
