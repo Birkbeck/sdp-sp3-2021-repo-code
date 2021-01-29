@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--suppress SpringFacetInspection -->
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="
@@ -10,7 +11,7 @@
     </bean>
     <bean id="provider" class="helloworld.ConfigurableMessageProvider">
         <constructor-arg>
-            <value>This is a configurable message which we can change in the config file</value>
+            <value>This is a message which we can change in the config file</value>
         </constructor-arg>
     </bean>
 </beans>
