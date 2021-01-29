@@ -10,7 +10,6 @@ import org.springframework.beans.factory.support.PropertiesBeanDefinitionReader;
 public class HelloWorldSpring {
 
   public static void main(String[] args) throws Exception {
-
     // get the bean factory
     BeanFactory factory = getBeanFactory();
 
@@ -22,9 +21,8 @@ public class HelloWorldSpring {
   }
 
   private static BeanFactory getBeanFactory() throws Exception {
-    // get the bean factory - understanding DefaultListableBeanFactory(0
-    // not really important.  It is just an Factory class example from
-    // Spring.
+    // get the bean factory - understanding DefaultListableBeanFactory() not really important.
+    //It is just an Factory class example from Spring.
     DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
 
     // create a definition reader

@@ -4,5 +4,5 @@ renderer.(class)=helloworld.StandardOutMessageRenderer
 #  of the Message renderer bean
 renderer.messageProvider(ref)=provider
 
-#Message provider
+# Message provider
 provider.(class)=helloworld.HelloWorldMessageProvider
