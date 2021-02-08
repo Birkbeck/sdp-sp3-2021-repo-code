@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/collecting/collecting.iml" filepath="$PROJECT_DIR$/collecting/collecting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collectors/collectors.iml" filepath="$PROJECT_DIR$/collectors/collectors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flatmap/flatmap.iml" filepath="$PROJECT_DIR$/flatmap/flatmap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loopstostreams/loopstostreams.iml" filepath="$PROJECT_DIR$/loopstostreams/loopstostreams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parallel/parallel.iml" filepath="$PROJECT_DIR$/parallel/parallel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream/stream.iml" filepath="$PROJECT_DIR$/stream/stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/streams.iml" filepath="$PROJECT_DIR$/.idea/streams.iml" />
+    </modules>
+  </component>
+</project>
