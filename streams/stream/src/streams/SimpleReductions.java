@@ -1,4 +1,4 @@
-package ch08.sec06;
+package streams;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

@@ -1,4 +1,4 @@
-package ch08.sec12;
+package streams;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -29,11 +29,11 @@ public class ReductionDemo {
     Integer sum3 = values.reduce(0, (x, y) -> x + y);
     System.out.println("sum3: " + sum3);
 
-    String contents = new String(Files.readAllBytes(Paths.get("alice.txt")), StandardCharsets.UTF_8);
+    String contents = new String(Files.readAllBytes(Paths.get("resources/gutenberg/alice30.txt")), StandardCharsets.UTF_8);
     List<String> words = List.of(contents.split("\\PL+"));
 
     int result = words.stream().reduce(0, (total, word) -> total + word.length(),
-            (total1, total2) -> total1 + total2);
+      (total1, total2) -> total1 + total2);
 
     System.out.println("result: " + result);
   }

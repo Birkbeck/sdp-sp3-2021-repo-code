@@ -24,18 +24,16 @@ public class DownstreamCollectors {
     final String FILENAME = "resources/cities.txt";
     Stream<Locale> locales = Stream.of(Locale.getAvailableLocales());
     locales = Stream.of(Locale.getAvailableLocales());
-    Map<String, Set<Locale>> countryToLocaleSet = locales.collect(groupingBy(
-      Locale::getCountry, toSet()));
+    Map<String, Set<Locale>> countryToLocaleSet = locales.collect(groupingBy(Locale::getCountry, toSet()));
     System.out.println("countryToLocaleSet: " + countryToLocaleSet);
 
     locales = Stream.of(Locale.getAvailableLocales());
-    Map<String, Long> countryToLocaleCounts = locales.collect(groupingBy(
-      Locale::getCountry, counting()));
+    Map<String, Long> countryToLocaleCounts = locales.collect(groupingBy(Locale::getCountry, counting()));
     System.out.println("countryToLocaleCounts: " + countryToLocaleCounts);
 
     Stream<City> cities = readCities(FILENAME);
-    Map<String, Integer> stateToCityPopulation = cities.collect(groupingBy(
-      City::getState, summingInt(City::getPopulation)));
+    Map<String, Integer> stateToCityPopulation =
+      cities.collect(groupingBy(City::getState, summingInt(City::getPopulation)));
     System.out.println("stateToCityPopulation: " + stateToCityPopulation);
 
     cities = readCities(FILENAME);
