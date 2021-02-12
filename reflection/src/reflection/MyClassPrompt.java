@@ -7,17 +7,17 @@ import static java.lang.System.exit;
 
 public class MyClassPrompt {
   public static void main(String[] args) {
-    if (args.length == 0) {
-      System.err.println("MyClassPrompt <full class name including package>");
-      exit(-1);
-    }
+//    if (args.length == 0) {
+//      System.err.println("MyClassPrompt <full class name including package>");
+//      exit(-1);
+//    }
     Class c;
     Scanner sc = null;
     try {
-      //sc = new Scanner(System.in);
-      //System.out.print("The name of the class: ");
-      //String aclass = sc.next();
-      c = Class.forName(args[0]);
+      sc = new Scanner(System.in);
+      System.out.print("The name of the class: ");
+      String aclass = sc.next();
+      c = Class.forName(aclass);
 
       System.out.println(c.getName());
       System.out.println(c.getSimpleName());
