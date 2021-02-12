@@ -8,6 +8,7 @@ modules at Birkbeck, University of London.
 
 ------
 
++ dd-mmm - various help sessions. Those with "consolidation" on the end are exactly that, the Java consolidation classes.
 + DI - dependency injection examples from class including the `HelloWorld` set of examples
 + Week-Three-Examples
 + Week-Two-Examples
