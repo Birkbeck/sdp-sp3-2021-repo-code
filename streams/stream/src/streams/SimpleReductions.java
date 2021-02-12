@@ -12,8 +12,8 @@ public class SimpleReductions {
     String contents = Files.readString(Paths.get("resources/gutenberg/alice30.txt"));
     List<String> words = List.of(contents.split("\\PL+"));
 
-    Optional<String> largest = words.stream().max(String::compareToIgnoreCase);
-    System.out.println("largest: " + largest.orElse(""));
+//    Optional<String> largest = words.stream().max(String::compareToIgnoreCase);
+//    System.out.println("largest: " + largest.orElse(""));
 
     boolean aWordStartsWithQ = words.stream().anyMatch(s -> s.startsWith("Q"));
     System.out.println("a word starts with Q: " + aWordStartsWithQ);
