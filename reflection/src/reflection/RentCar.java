@@ -8,6 +8,8 @@ public class RentCar {
   private int rate;
   private String type;
 
+  public RentCar() { this(0); }
+
   public RentCar(int length) {
     if (length < 455) {
       type = "small";
