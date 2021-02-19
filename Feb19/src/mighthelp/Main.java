@@ -7,6 +7,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 
 public class Main {
   public static void main(String[] args) throws IOException {
@@ -21,7 +22,7 @@ public class Main {
   }
 
   private static Thing process(String s) {
-    return ConcreteThingFactory.getInstance(s);
+    return ThingFactory.getInstance(s);
 
 //      switch (s) {
 //      case "Add" -> new AddImplementation();
@@ -35,8 +36,20 @@ public class Main {
 }
 
 // Example of "helper" class as a "nested" class
-class LinkedList {
-  private class Node {
+class LinkedList<T> {
+  private class Node<T> {
+  }
+
+  public int countOccurrences(List<T> lst){
+   return countOccurrences(lst, 0);
+  }
+
+  private int countOccurrences(List<T> lst, int count){
+    if (lst.isEmpty()){
+      return count;
+    } else {
+      return countOccurrences(lst.subList(1,lst.size()),count + 1);
+    }
   }
 }
 
