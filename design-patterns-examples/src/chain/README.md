@@ -12,5 +12,5 @@ If a client was given an instance of a handler (created at run time):
     MessageHandler handler = new BlackListHandler(new SpamHandler(new ForwardingHandler(new DeliveryHandler(null))));
 
 The client would simply do:
-    
+
     handler.handle(emailMessage);

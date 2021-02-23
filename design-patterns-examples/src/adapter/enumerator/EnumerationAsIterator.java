@@ -8,26 +8,26 @@ import java.util.Iterator;
  * Does not support remove() operation.
  */
 public class EnumerationAsIterator implements Iterator {
-    private final Enumeration enumeration;
+  private final Enumeration enumeration;
 
-    public EnumerationAsIterator(Enumeration enumeration) {
-        this.enumeration = enumeration;
-    }
+  public EnumerationAsIterator(Enumeration enumeration) {
+    this.enumeration = enumeration;
+  }
 
-    public boolean hasNext() {
-        return this.enumeration.hasMoreElements();
-    }
+  public boolean hasNext() {
+    return this.enumeration.hasMoreElements();
+  }
 
-    public Object next() {
-        return this.enumeration.nextElement();
-    }
+  public Object next() {
+    return this.enumeration.nextElement();
+  }
 
-    /**
-     * Not supported.
-     *
-     * @throws UnsupportedOperationException if invoked
-     */
-    public void remove() {
-        throw new UnsupportedOperationException("Cannot remove");
-    }
+  /**
+   * Not supported.
+   *
+   * @throws UnsupportedOperationException if invoked
+   */
+  public void remove() {
+    throw new UnsupportedOperationException("Cannot remove");
+  }
 }

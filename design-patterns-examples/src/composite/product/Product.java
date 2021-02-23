@@ -1,6 +1,5 @@
 package composite.product;
 
-
 public abstract class Product {
 
   protected float mPrice;
@@ -12,5 +11,4 @@ public abstract class Product {
   public float getPrice() {
     return mPrice;
   }
-
 }
