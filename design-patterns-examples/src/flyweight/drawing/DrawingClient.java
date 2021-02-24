@@ -54,11 +54,11 @@ public class DrawingClient extends JFrame {
   }
 
   private int getRandomWidth() {
-    return (int) (Math.random() * (WIDTH / 10));
+    return (int) (Math.random() * (WIDTH / 10.0));
   }
 
   private int getRandomHeight() {
-    return (int) (Math.random() * (HEIGHT / 10));
+    return (int) (Math.random() * (HEIGHT / 10.0));
   }
 
   private Color getRandomColor() {

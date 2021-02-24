@@ -30,11 +30,11 @@ public class Demo {
     // Sort!
     System.out.println("Starting...");
     final int[] result = d.go(array);
-    System.out.println("Done");
+    System.out.println("Done..." + result);
   }
 
   public int[] go(int[] array) {
-    mSorter.Sort(array);
+    mSorter.sort(array);
     return array;
   }
 

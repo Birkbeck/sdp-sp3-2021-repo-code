@@ -8,11 +8,12 @@ import java.util.List;
 public class MySqlCustomerDAO implements CustomerDAO {
   @Override
   public void addCustomer(Customer c) throws DataAccessException, SQLException {
-    Connection con = null;
-    PreparedStatement s = con.prepareStatement("INSERT ...");
-    // ...
-    s.executeUpdate();
-    // ...
+    Connection con = null; // just for illustration purposes. Should never be "null".
+    try (PreparedStatement s = con.prepareStatement("INSERT ...");) {
+      // ...
+      s.executeUpdate();
+      // ...
+    }
   }
 
   @Override

@@ -12,7 +12,7 @@ public interface Sorter {
    *
    * @param array Input array
    */
-  void Sort(int[] array);
+  void sort(int[] array);
 
 
 }

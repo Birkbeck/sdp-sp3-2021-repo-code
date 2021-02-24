@@ -56,7 +56,7 @@ public class MergeSort implements Sorter {
   }
 
   @Override
-  public void Sort(int[] array) {
+  public void sort(int[] array) {
     final int[] r = doMergeSort(array, 0, array.length - 1);
 
     System.arraycopy(r, 0, array, 0, r.length);

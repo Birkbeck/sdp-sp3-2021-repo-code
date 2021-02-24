@@ -3,7 +3,7 @@ package strategy;
 public class BubbleSort implements Sorter {
 
   @Override
-  public void Sort(int[] array) {
+  public void sort(int[] array) {
     boolean madeswap = false;
 
     do {
