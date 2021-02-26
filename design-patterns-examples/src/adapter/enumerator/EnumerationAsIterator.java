@@ -15,11 +15,11 @@ public class EnumerationAsIterator implements Iterator {
   }
 
   public boolean hasNext() {
-    return this.enumeration.hasMoreElements();
+    return enumeration.hasMoreElements();
   }
 
   public Object next() {
-    return this.enumeration.nextElement();
+    return enumeration.nextElement();
   }
 
   /**

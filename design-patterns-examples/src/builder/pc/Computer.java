@@ -1,5 +1,8 @@
 package builder.pc;
 
+import lombok.Data;
+
+@Data
 public class Computer {
 
   //required parameters
