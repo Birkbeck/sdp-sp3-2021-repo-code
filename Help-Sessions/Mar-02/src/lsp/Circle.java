@@ -1,4 +1,4 @@
-package ocp;
+package lsp;
 
 interface Circle extends Shape {
   double getRadius();

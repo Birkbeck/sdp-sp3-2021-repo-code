@@ -1,4 +1,4 @@
-package ocp;
+package lsp;
 
 public class CircleImpl implements Circle {
   private double radius;

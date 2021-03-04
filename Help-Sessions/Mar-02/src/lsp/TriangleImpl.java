@@ -1,4 +1,4 @@
-package ocp;
+package lsp;
 
 class TriangleImpl implements Triangle {
   private int height;

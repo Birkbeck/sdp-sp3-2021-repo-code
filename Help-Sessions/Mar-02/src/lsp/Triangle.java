@@ -1,3 +1,3 @@
-package ocp;
+package lsp;
 
 interface Triangle extends Shape {}
