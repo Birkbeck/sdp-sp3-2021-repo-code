@@ -6,6 +6,10 @@ public class LuxuryCar extends CarDecorator {
     super(c);
   }
 
+  public String howPlush(){
+    return "it isn't";
+  }
+  
   @Override
   public void assemble() {
     super.assemble();

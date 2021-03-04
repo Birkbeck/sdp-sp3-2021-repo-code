@@ -16,3 +16,8 @@
 + Closed for modification
 + Open for extension
 
+## L - Liskov Substitution Principle
+
++ Barbara Liskov @ MIT
++ Substitute every subclass (or derived type) for their base (parent) class (type).
++ Breaking example - List iterator in Java which has a `remove` method. 
