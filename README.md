@@ -8,7 +8,7 @@ modules at Birkbeck, University of London.
 
 ------
 
-+ dd-mmm - various help sessions. Those with "consolidation" on the end are exactly that, the Java consolidation classes.
++ Consolidation - The Java "refresher" sessions.
 + DI - dependency injection examples from class including the `HelloWorld` set of examples
 + Week-Three-Examples
 + Week-Two-Examples
@@ -33,7 +33,7 @@ modules at Birkbeck, University of London.
 + optional - examples of the use of `Optional`
 + recursion - examples
 + reflection - examples
-+ solid - examples
++ SOLID - examples of the SOLID principles
 + streams - Java Streams (not the IO streams)
 + tryWithResources 
 + unnamed-modules-example - more JPMS
