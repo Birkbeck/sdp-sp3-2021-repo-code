@@ -1,4 +1,4 @@
-package ocp;
+package lsp;
 
 class RectangleImpl implements Rectangle {
   private int length;
