@@ -1,4 +1,4 @@
-package lsp;
+package isp;
 
 class RectangleImpl implements Rectangle {
   private int length;

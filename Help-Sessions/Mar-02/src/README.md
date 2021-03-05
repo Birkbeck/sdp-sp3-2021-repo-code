@@ -26,3 +26,8 @@
 
 + A client should never be forced to implement an interface it does not use.
 + A client should never be required to implement methods it will **never** use.
+
+## D - Dependency Inversion Principle
+
++ Entities must depend upon *abstractions*, i.e., interfaces.
++ High level modules must not depend on low level modules.

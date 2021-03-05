@@ -1,4 +1,4 @@
-package lsp;
+package isp;
 
 interface Rectangle extends Shape {
   int getHeight();
