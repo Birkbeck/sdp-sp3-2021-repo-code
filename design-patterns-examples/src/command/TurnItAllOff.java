@@ -11,19 +11,15 @@ public class TurnItAllOff implements Command {
 
   @Override
   public void execute() {
-
     for (ElectronicDevice device : theDevices) {
       device.off();
     }
-
   }
 
   @Override
   public void undo() {
-
     for (ElectronicDevice device : theDevices) {
       device.on();
     }
-
   }
 }

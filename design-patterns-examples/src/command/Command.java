@@ -1,7 +1,6 @@
 package command;
 
-// Each command you want to issue will implement
-// the Command interface
+// Each command you want to issue will implement the Command interface
 
 public interface Command {
 

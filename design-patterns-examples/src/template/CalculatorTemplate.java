@@ -4,6 +4,7 @@ public abstract class CalculatorTemplate implements Calculator {
   private double result;
   private boolean initialized;
 
+  @Override
   public final void calculate(double operand) {
     if (this.initialized) {
       this.result = this.doCalculate(this.result, operand);
@@ -15,7 +16,7 @@ public abstract class CalculatorTemplate implements Calculator {
 
   @Override
   public final double getResult() {
-    return this.result; // throw exception if !initialized
+    return result; // throw exception if !initialized
   }
 
   protected abstract double doCalculate(double o1, double o2);

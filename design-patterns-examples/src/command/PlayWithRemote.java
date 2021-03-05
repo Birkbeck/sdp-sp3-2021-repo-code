@@ -15,7 +15,7 @@ public class PlayWithRemote {
     // When execute() is called on this command object
     // it will execute the method on() in Television
 
-    final TurnTVOn onCommand = new TurnTVOn(newDevice);
+    final Command onCommand = new TurnTVOn(newDevice);
 
     // Calling the execute() causes on() to execute in Television
 
@@ -29,7 +29,7 @@ public class PlayWithRemote {
 
     // Now when execute() is called off() of Television executes
 
-    final TurnTVOff offCommand = new TurnTVOff(newDevice);
+    final Command offCommand = new TurnTVOff(newDevice);
 
     // Calling the execute() causes off() to execute in Television
 
@@ -43,7 +43,7 @@ public class PlayWithRemote {
 
     // Now when execute() is called volumeUp() of Television executes
 
-    final TurnTVUp volUpCommand = new TurnTVUp(newDevice);
+    final Command volUpCommand = new TurnTVUp(newDevice);
 
     // Calling the execute() causes volumeUp() to execute in Television
 
@@ -65,7 +65,7 @@ public class PlayWithRemote {
 
     // Add the Electronic Devices to a List
 
-    final List<ElectronicDevice> allDevices = new ArrayList<ElectronicDevice>();
+    final List<ElectronicDevice> allDevices = new ArrayList<>();
 
     allDevices.add(theTV);
     allDevices.add(theRadio);
@@ -74,7 +74,7 @@ public class PlayWithRemote {
     // where a call to run execute() on this function will
     // call off() for each device in the list
 
-    final TurnItAllOff turnOffDevices = new TurnItAllOff(allDevices);
+    final Command turnOffDevices = new TurnItAllOff(allDevices);
 
     // This calls for execute() to run which calls for off() to
     // run for every ElectronicDevice
@@ -95,10 +95,8 @@ public class PlayWithRemote {
 
     turnThemOff.pressUndo();
 
-    // To undo more than one command add them to a LinkedList
-    // using addFirst(). Then execute undo on each item until
-    // there are none left. (This is your Homework)
-
+    // To undo more than one command add them to a LinkedList using addFirst(). 
+    // Then execute undo on each item until there are none left. 
   }
 
 }

@@ -21,3 +21,8 @@
 + Barbara Liskov @ MIT
 + Substitute every subclass (or derived type) for their base (parent) class (type).
 + Breaking example - List iterator in Java which has a `remove` method. 
+
+## I - Interface Segregation Principle
+
++ A client should never be forced to implement an interface it does not use.
++ A client should never be required to implement methods it will **never** use.
