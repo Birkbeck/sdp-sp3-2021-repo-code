@@ -1,7 +1,6 @@
 package fivedipfactory;
 
 
-import static fivedipfactory.Factory.of;
 
 public class Main {
   public static void main(String[] args) {
@@ -11,7 +10,7 @@ public class Main {
 //    System.out.println(mySQLConnection);
 
     // var list = List.of(1,2,3); // example of a factory method
-    DBConnection db = of();
+    DBConnection db = Factory.of();
 
     System.out.println(db);
   }
