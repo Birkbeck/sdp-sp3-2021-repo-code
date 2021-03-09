@@ -13,7 +13,6 @@ modules at Birkbeck, University of London.
 + BridgeBetween - some sample code that illustrates how to access data from a (essentially) package private class.
 + Week-Three-Examples
 + Week-Two-Examples
-+ common.widget - part of the JPMS example
 + concurrency
 + corejava - example code from the book by Cay Horstmann
 + dagger - DI framework examples
@@ -24,7 +23,6 @@ modules at Birkbeck, University of London.
 + examples - general Java examples
 + fpinjava - "Functional Programming in Java" book example code
 + generics - examples
-+ getting-started-jpms
 + guice - DI framework example
 + javaimpatient - example code from the book by Cay Horstmann
 + junit - Junit 4 and 5 examples
@@ -37,5 +35,4 @@ modules at Birkbeck, University of London.
 + SOLID - examples of the SOLID principles
 + streams - Java Streams (not the IO streams)
 + tryWithResources 
-+ unnamed-modules-example - more JPMS
 + ...
