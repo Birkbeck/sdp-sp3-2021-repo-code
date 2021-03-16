@@ -32,6 +32,7 @@ modules at Birkbeck, University of London.
 + optional - examples of the use of `Optional`
 + recursion - examples
 + reflection - examples
++ `searchexample` — the search examples from the second coursework (Doom/Gloom) repository.
 + SOLID - examples of the SOLID principles
 + streams - Java Streams (not the IO streams)
 + tryWithResources 
