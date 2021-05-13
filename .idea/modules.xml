@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BridgeBetween/BridgeBetween.iml" filepath="$PROJECT_DIR$/BridgeBetween/BridgeBetween.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DI/DI.iml" filepath="$PROJECT_DIR$/DI/DI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FactoryReflection/FactoryReflection.iml" filepath="$PROJECT_DIR$/FactoryReflection/FactoryReflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Help-Sessions/Help-Sessions.iml" filepath="$PROJECT_DIR$/Help-Sessions/Help-Sessions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOLID/SOLID.iml" filepath="$PROJECT_DIR$/SOLID/SOLID.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week-Six-Examples/Week-Six-Examples.iml" filepath="$PROJECT_DIR$/Week-Six-Examples/Week-Six-Examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week-Two-Examples/Week-Two-Examples.iml" filepath="$PROJECT_DIR$/Week-Two-Examples/Week-Two-Examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrency/concurrency.iml" filepath="$PROJECT_DIR$/concurrency/concurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consolidation/consolidation.iml" filepath="$PROJECT_DIR$/consolidation/consolidation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/corejava/corejava.iml" filepath="$PROJECT_DIR$/corejava/corejava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dagger/dagger.iml" filepath="$PROJECT_DIR$/dagger/dagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/defaults/defaults.iml" filepath="$PROJECT_DIR$/defaults/defaults.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-patterns-banas/design-patterns-banas.iml" filepath="$PROJECT_DIR$/design-patterns-banas/design-patterns-banas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-patterns-examples/design-patterns-examples.iml" filepath="$PROJECT_DIR$/design-patterns-examples/design-patterns-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/examples.iml" filepath="$PROJECT_DIR$/examples/examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guice/guice.iml" filepath="$PROJECT_DIR$/guice/guice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaimpatient/javaimpatient.iml" filepath="$PROJECT_DIR$/javaimpatient/javaimpatient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/junit/junit.iml" filepath="$PROJECT_DIR$/junit/junit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lambdas/lambdas.iml" filepath="$PROJECT_DIR$/lambdas/lambdas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-examples/module-examples.iml" filepath="$PROJECT_DIR$/module-examples/module-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/optional/optional.iml" filepath="$PROJECT_DIR$/optional/optional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recursion/recursion.iml" filepath="$PROJECT_DIR$/recursion/recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reflection/reflection.iml" filepath="$PROJECT_DIR$/reflection/reflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/repo.iml" filepath="$PROJECT_DIR$/.idea/repo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/searchexamples/src/searchexample/searchexample.iml" filepath="$PROJECT_DIR$/searchexamples/src/searchexample/searchexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/searchexamples/searchexamples.iml" filepath="$PROJECT_DIR$/searchexamples/searchexamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/streams/streams.iml" filepath="$PROJECT_DIR$/streams/streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tryWithResources/tryWithResources.iml" filepath="$PROJECT_DIR$/tryWithResources/tryWithResources.iml" />
+    </modules>
+  </component>
+</project>

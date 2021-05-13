@@ -8,5 +8,10 @@ public class ExampleStringBuilder {
       .append(" string")
       .toString(); // equivalent of "build"
     System.out.println(s);
+
+    // return "a" + "b" + "c" + "d";
+    // "a" + "b" -> "ab"
+    // "ab" + "c" -> "abc"
+    // "abc" + "d" -> "abcd"
   }
 }

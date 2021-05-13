@@ -8,6 +8,6 @@ public interface ElectronicDevice {
 
   void volumeUp();
 
-  void volumenDown();
+  void volumeDown();
 
 }

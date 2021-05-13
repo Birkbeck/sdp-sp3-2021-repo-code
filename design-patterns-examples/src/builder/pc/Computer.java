@@ -1,9 +1,6 @@
 package builder.pc;
 
-import lombok.Data;
-
-@Data
-public class Computer {
+public record Computer {
 
   //required parameters
   private String HDD;
@@ -48,6 +45,13 @@ public class Computer {
     private boolean isGraphicsCardEnabled;
     private boolean isBluetoothEnabled;
 
+    public ComputerBuilder(String hdd) {
+      this.HDD = hdd;
+    }
+
+    public ComputerBuilder(String ram) {
+      this.HDD = hdd;
+    }
     public ComputerBuilder(String hdd, String ram) {
       this.HDD = hdd;
       this.RAM = ram;
@@ -68,5 +72,4 @@ public class Computer {
     }
 
   }
-
 }

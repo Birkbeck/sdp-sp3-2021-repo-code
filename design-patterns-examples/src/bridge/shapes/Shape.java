@@ -6,7 +6,11 @@ public abstract class Shape {
 
   //constructor with implementor as input argument
   public Shape(Colour c) {
-    this.colour = c;
+    colour = c;
+  }
+
+  public Shape() {
+    colour = new GreenColour();
   }
 
   abstract public void applyColour();

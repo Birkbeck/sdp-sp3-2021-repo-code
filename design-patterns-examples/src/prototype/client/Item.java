@@ -6,6 +6,7 @@ public abstract class Item {
   private String title;
   private double price;
 
+  @Override
   public Item clone() {
     Item clonedItem = null;
     try {
@@ -20,23 +21,13 @@ public abstract class Item {
     return clonedItem;
   }
 
-  public String getTitle() {
-    return title;
-  }
-
   public void setTitle(String title) {
     this.title = title;
-  }
-
-  public double getPrice() {
-    return price;
   }
 
   public void setPrice(double price) {
     this.price = price;
   }
-
-
 }
 
 //Concrete Prototypes

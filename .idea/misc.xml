@@ -6,7 +6,7 @@
     <list size="0" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_16_PREVIEW" project-jdk-name="16" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
+    <output url="file://out" />
   </component>
   <component name="SuppressionsComponent">
     <option name="suppComments" value="[]" />

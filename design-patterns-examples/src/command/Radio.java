@@ -20,7 +20,7 @@ public class Radio implements ElectronicDevice {
   }
 
   @Override
-  public void volumenDown() {
+  public void volumeDown() {
     volume--;
     System.out.println("Radio Volume is at: " + volume);
   }

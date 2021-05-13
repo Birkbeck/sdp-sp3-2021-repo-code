@@ -1,7 +1,7 @@
 package chain;
 
-public class SpamHandler extends MessageHandler {
-  public SpamHandler(MessageHandler next) {
+public class DefaultHandler extends MessageHandler {
+  public DefaultHandler(MessageHandler next) {
     super(next);
   }
 
@@ -15,8 +15,7 @@ public class SpamHandler extends MessageHandler {
   }
 
   private boolean isSpam(Message m) {
-    if (m instanceof Spam s)
-      System.out.println(s);
+    System.out.println(m);
     return true;
   }
 

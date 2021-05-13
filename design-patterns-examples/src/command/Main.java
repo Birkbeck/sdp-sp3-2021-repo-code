@@ -3,13 +3,13 @@ package command;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PlayWithRemote {
+public class Main {
 
   public static void main(String[] args) {
 
     // Gets the ElectronicDevice to use
 
-    final ElectronicDevice newDevice = TVRemote.getDevice();
+    final ElectronicDevice newDevice = new Television();
 
     // TurnTVOn contains the command to turn on the tv
     // When execute() is called on this command object
@@ -19,11 +19,12 @@ public class PlayWithRemote {
 
     // Calling the execute() causes on() to execute in Television
 
-    DeviceButton onPressed = new DeviceButton(onCommand);
+    onCommand.execute();
+    //DeviceButton button = new DeviceButton(onCommand);
 
-    // When press() is called theCommand.execute(); executes
+    // When button() is called theCommand.execute(); executes
 
-    onPressed.press();
+    //button.press();
 
     //----------------------------------------------------------
 
@@ -31,13 +32,15 @@ public class PlayWithRemote {
 
     final Command offCommand = new TurnTVOff(newDevice);
 
+    offCommand.execute();
+
     // Calling the execute() causes off() to execute in Television
 
-    onPressed = new DeviceButton(offCommand);
+    //button = new DeviceButton(offCommand);
 
-    // When press() is called theCommand.execute(); executes
+    // When button() is called theCommand.execute(); executes
 
-    onPressed.press();
+    //button.press();
 
     //----------------------------------------------------------
 
@@ -47,17 +50,22 @@ public class PlayWithRemote {
 
     // Calling the execute() causes volumeUp() to execute in Television
 
-    onPressed = new DeviceButton(volUpCommand);
+    volUpCommand.execute();
+    //button = new DeviceButton(volUpCommand);
 
-    // When press() is called theCommand.execute(); executes
+    // When button() is called theCommand.execute(); executes
 
-    onPressed.press();
-    onPressed.press();
-    onPressed.press();
+    volUpCommand.execute();
+    volUpCommand.execute();
+    volUpCommand.execute();
+
+//    button.press();
+//    button.press();
+//    button.press();
 
     //----------------------------------------------------------
 
-    // Creating a TV and Radio to turn off with 1 press
+    // Creating a TV and Radio to turn off with 1 button
 
     final Television theTV = new Television();
 
@@ -65,10 +73,7 @@ public class PlayWithRemote {
 
     // Add the Electronic Devices to a List
 
-    final List<ElectronicDevice> allDevices = new ArrayList<>();
-
-    allDevices.add(theTV);
-    allDevices.add(theRadio);
+    final List<ElectronicDevice> allDevices = List.of(theTV, theRadio);
 
     // Send the List of Electronic Devices to TurnItAllOff
     // where a call to run execute() on this function will

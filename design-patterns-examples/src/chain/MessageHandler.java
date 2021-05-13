@@ -8,8 +8,8 @@ public abstract class MessageHandler {
   }
 
   public void handle(Message message) {
-    if (this.next != null) {
-      this.next.handle(message);
+    if (next != null) {
+      next.handle(message);
     }
   }
 }

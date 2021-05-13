@@ -1,4 +1,4 @@
 module common.widget {
-  exports org.jwidgets;
-  exports com.thing;
+  exports common.widget.org.jwidgets;
+  exports common.widget.com.thing;
 }

@@ -15,7 +15,8 @@ public class SpamHandler extends MessageHandler {
   }
 
   private boolean isSpam(Message m) {
-    // ...
+    if (m instanceof Spam s)
+      System.out.println(s);
     return true;
   }
 

@@ -7,17 +7,14 @@ import java.util.Iterator;
  * Adapts Enumeration interface to Iterator interface.
  * Does not support remove() operation.
  */
-public class EnumerationAsIterator implements Iterator {
-  private final Enumeration enumeration;
+public record EnumerationAsIterator(Enumeration enumeration) implements Iterator {
 
-  public EnumerationAsIterator(Enumeration enumeration) {
-    this.enumeration = enumeration;
-  }
-
+  @Override
   public boolean hasNext() {
     return enumeration.hasMoreElements();
   }
 
+  @Override
   public Object next() {
     return enumeration.nextElement();
   }
@@ -27,6 +24,7 @@ public class EnumerationAsIterator implements Iterator {
    *
    * @throws UnsupportedOperationException if invoked
    */
+  @Override
   public void remove() {
     throw new UnsupportedOperationException("Cannot remove");
   }

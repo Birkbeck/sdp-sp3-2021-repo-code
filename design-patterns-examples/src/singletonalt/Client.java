@@ -1,11 +1,11 @@
 package singletonalt;
 
 public class Client {
-  public void doSomething() {
-    // doing something
-    MySingleton.getInstance().doX();
-    // doing something else
-    final int b = MySingleton.getInstance().getB();
-    // do something with b
+  public static void main(String... args) {
+    var item = MySingleton.getInstance();
+    System.out.println(item);
+    var itemTwo = MySingleton.getInstance();
+    System.out.println(itemTwo);
   }
+
 }

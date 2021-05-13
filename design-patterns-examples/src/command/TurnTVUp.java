@@ -15,6 +15,6 @@ public class TurnTVUp implements Command {
 
   @Override
   public void undo() {
-    theDevice.volumenDown();
+    theDevice.volumeDown();
   }
 }
