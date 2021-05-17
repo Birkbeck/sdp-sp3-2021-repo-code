@@ -3,7 +3,6 @@ package q3;
 @FunctionalInterface
 interface TwoStringPredicate {
   boolean isBetter(String s1, String s2);
-  // default String toStr(){ return "thing";}
 }
 
 public class StringUtils {

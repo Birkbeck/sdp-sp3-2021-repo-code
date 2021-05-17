@@ -3,7 +3,6 @@ package q4;
 @FunctionalInterface
 interface TwoElementPredicate<T> {
   boolean isBetter(T s1, T s2);
-  // default String toStr(){ return "thing";}
 }
 
 public class StringUtils {
