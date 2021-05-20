@@ -1,7 +1,7 @@
 package trees;
 
 public class IntTree {
-    private IntTreeNode overallRoot;
+    private final IntTreeNode overallRoot;
 
     // <methods>
     public IntTree(IntTreeNode top) {
