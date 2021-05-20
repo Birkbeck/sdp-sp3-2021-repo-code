@@ -6,7 +6,7 @@ public record IntTreeNode(int data, IntTreeNode left, IntTreeNode right) {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "[" + data + "]";
     }
 }

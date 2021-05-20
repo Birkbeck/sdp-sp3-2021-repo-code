@@ -13,7 +13,7 @@ public class IntTree {
         return traverse(overallRoot);
     }
 
-    private String traverse(IntTreeNode t){
+    private String traverse(IntTreeNode t) {
         if (t == null) return "empty";
         if (t.left() == null && t.right() == null) return "" + t.data();
         return "(" + t.data() + ", " + traverse(t.left()) + ", " + traverse(t.right()) + ")";

@@ -1,3 +1,5 @@
+package code;
+
 import static java.lang.Math.abs;
 
 public class Functions {

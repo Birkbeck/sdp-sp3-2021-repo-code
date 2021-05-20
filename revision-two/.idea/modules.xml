@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Q01/Q01.iml" filepath="$PROJECT_DIR$/Q01/Q01.iml" />
       <module fileurl="file://$PROJECT_DIR$/inttree/inttree.iml" filepath="$PROJECT_DIR$/inttree/inttree.iml" />
       <module fileurl="file://$PROJECT_DIR$/revision-two.iml" filepath="$PROJECT_DIR$/revision-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worksheet-03-lambda/worksheet-03-lambda.iml" filepath="$PROJECT_DIR$/worksheet-03-lambda/worksheet-03-lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worksheet-04-streams/worksheet-04-streams.iml" filepath="$PROJECT_DIR$/worksheet-04-streams/worksheet-04-streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worksheet-09-fp-redux/worksheet-09-fp-redux.iml" filepath="$PROJECT_DIR$/worksheet-09-fp-redux/worksheet-09-fp-redux.iml" />
     </modules>
   </component>
 </project>
